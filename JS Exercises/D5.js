@@ -24,9 +24,9 @@ let ord = function (arr) {
   for (let i = 0; i < arr.length; i++) {
     for (let j = i + 1; j < arr.length; j++) {
       if (arr[i] > arr[j]) {
-        let temp = arr[i];
+        let o = arr[i];
         arr[i] = arr[j];
-        arr[j] = temp;
+        arr[j] = o;
       }
     }
   }
@@ -142,7 +142,7 @@ while (i < numericArray.length) {
     console.log(numericArray[i]);
     break; //non sapevo che break si potesse usare anche in questo modo, ho dovuto cercare su google, senno mi stampava comunque gli elementi successivi.
   }
-  console.log(numericArray[i], i++);
+  console.log(numericArray[i], i++); //elemento dell'array + numero sequenziale dell'elemento.
 }
 
 /* ESERCIZIO 10
