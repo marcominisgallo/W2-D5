@@ -13,9 +13,9 @@ header div {
 
 header nav {
     background-color: #36475A;
-    margin-bottom: 1em;
     align-content: center;
     font-size: 0.9em;
+    border-bottom: 2em solid #E9EDEE;
 }
 
 nav ul{
@@ -26,7 +26,7 @@ nav ul{
 header > nav > ul > li {
     display: inline;
     padding: 0 0.5em;
-
+    cursor: pointer;
 }
 
 header a {
@@ -43,7 +43,7 @@ p#offer {
     background-color: #F56600;
     color: white;
     padding: 0.4em 0;
-    margin: 1.5em;
+    margin: 0 1.5em 1.5em 1.5em;
 }
 
 section#intro {
@@ -87,6 +87,7 @@ section#categorie > p > a {
     font-weight: 600;
     font-size: 0.8em;
     margin-left: 0.5em;
+    cursor: pointer;
 }
 
 section#categorie div {
